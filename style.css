@@ -1,0 +1,383 @@
+@import url(//db.onlinewebfonts.com/c/85e1e7f6727c0547211a6f455e746f8c?family=nevis);
+/*html {
+    width: 1600px;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+}
+*/
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font: bold;
+    font-family: "nevis-bold", sans-serif;
+}
+
+.panel1 {
+    display: inline-flex;
+}
+.section1 {
+    background-color: #c4232b;
+    position: relative;
+    font: bold;
+    font-family: "nevis-bold", sans-serif;
+    gap: 0rem;
+    height: 900px;
+    font: "nevis-bold";
+    width: 500px;
+}
+
+.logo {
+    float: left;
+    width: 500px;
+
+    -ms-flex-align: left;
+}
+
+.bottom-center {
+    background: #c4232b;
+    position: absolute;
+    color: white;
+    top: 85%;
+    padding-left: 6%;
+}
+
+.list1 {
+    display: inline-block;
+    padding-left: 6%;
+}
+
+.list2 {
+    display: inline-flex;
+    gap: 3px;
+}
+
+.logo1 {
+    float: left;
+    width: 220px;
+    -ms-flex-align: left;
+}
+
+.section2 {
+    background-color: #c4232b;
+    top: 20px;
+    height: 900px;
+    width: 1100px;
+    display: inline-block;
+}
+
+.navbar {
+    color: white;
+    font: "nevis-bold";
+    font: 5px;
+    font-size: smaller;
+    padding-left: 30%;
+    padding-top: 50px;
+    display: inline-flex;
+    gap: 6rem;
+}
+
+ul#menu {
+    list-style: none;
+}
+ul#menu li {
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+ul#menu li::before {
+    position: absolute;
+    display: block;
+    content: "";
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    transition: 0.4s;
+    background-color: white;
+}
+ul#menu li.active::before,
+ul#menu li:hover::before {
+    left: 0%;
+}
+ul#menu li a {
+    text-decoration: none;
+}
+
+.logo2 {
+    width: 900px;
+    position: center;
+    padding-left: 150px;
+}
+
+.logo3 {
+    width: 300px;
+    height: fit-content;
+    padding-left: 40%;
+}
+
+.next-bar {
+    gap: 1rem;
+}
+
+.section3 {
+    background-color: #c4232b;
+    color: white;
+    font: "nevis-bold";
+    font: bold;
+    font-size: large;
+    display: inline-flex;
+    gap: 6rem;
+    padding-left: 35%;
+}
+
+.logo4 {
+    width: 15%;
+}
+
+.panel2 {
+    background-color: white;
+    height: 900px;
+    width: 1600px;
+    display: inline-block;
+}
+
+#panel-opt2 {
+    background-color: black;
+    height: 900px;
+    width: 1600px;
+    display: inline-block;
+}
+
+#rowpanel2-1 {
+    display: inline-flex;
+    padding-top: 40px;
+    padding-left: 85px;
+    gap: 5rem;
+}
+
+.rowpanel2-1 {
+    display: inline-flex;
+    padding-top: 40px;
+    padding-left: 80px;
+    gap: 4rem;
+    width: 1600px;
+}
+
+.rowpanel2-2{
+    display:inline-flex;
+    padding-top:0%;
+    gap:1000%;
+}
+
+
+.logo5 {
+    width: 400px;
+    height: 250px;
+    padding-top: -10%;
+}
+
+.img1 {
+    width: 300px;
+    height: 250px;
+}
+
+.img-block {
+    text-align: center;
+}
+
+.mid-sec {
+    padding-left: 0%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    padding-right: 100%;
+}
+
+.img2 {
+    padding-left: 0%;
+}
+
+.img22
+{    
+    padding-right:0%;
+}
+
+.section5 {
+    padding-top: 40px;
+    padding-left: 60px;
+    gap: 5rem;
+    display: inline-flex;
+}
+
+#img-block {
+    text-align: center;
+}
+
+#img3 {
+    width: 300px;
+    height: 450px;
+}
+
+.panel3 {
+    width: 1600px;
+    height: 650px;
+    background-color: white;
+    display: inline-flex;
+}
+
+.section6 {
+    width: 650px;
+    height: 630px;
+    display: inline-block;
+}
+
+.logo6 {
+    width: 400px;
+    height: 250px;
+    padding-top: 4%;
+    padding-left: 50px;
+}
+
+.section6-content {
+    padding-left: 100px;
+    text-align: left;
+}
+
+.section7 {
+    display: inline-flex;
+    width: 850px;
+    height: 630px;
+    padding-top: 3%;
+}
+.img4 {
+    width: 100%;
+    padding-top: 3%;
+    padding: right 150px;
+    height: auto;
+}
+
+.panel4 {
+    width: 1600px;
+    height: 600px;
+    background-color: black;
+    display: inline-flex;
+}
+
+.section8 {
+    display: inline-flex;
+    width: 800px;
+    height: 600px;
+}
+.img5 {
+    width: 65%;
+    height: 80%;
+
+    padding-left: 80px;
+    padding-top: 10%;
+}
+
+.section9 {
+    display: inline-block;
+    width: 800px;
+    height: 600px;
+}
+
+hr.bold-line {
+    border: 3px solid #c4232b;
+    width: 95%;
+}
+
+.section9-content {
+    text-align: left;
+}
+
+.panel5 {
+    width: 1600px;
+    height: 80px;
+    background-color: #c4232b;
+    display: inline-flex;
+}
+
+.img6 {
+    width: 13%;
+    padding-left: 40px;
+    height: auto;
+}
+
+.list-class {
+    width: 100px;
+    height: 50px;
+    padding-right: 6%;
+    display: inline-flex;
+}
+
+ul li {
+    list-style: none;
+    display: inline-flex;
+    font-size: 50px;
+}
+ul li a {
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.bottom-text {
+    display: inline-flex;
+    width: 1200px;
+    height: 70px;
+    text-align: right;
+    color: white;
+    padding-left: 26%;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1600px) {
+    .panel1 .panel2 .panel3 .panel4 .panel5 #panel-opt2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .panel1 .panel2 .panel3 .panel4 .panel5 #panel-opt2 {
+        width: 50%;
+        height: 320px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    .panel1 .panel2 .panel3 .panel4 .panel5 #panel-opt2 {
+        width: 35%;
+        height: 280px;
+    }
+}
+
+.img1 .img2 .img21 .img3 .img4 .img5 .img6 {
+    width: 100%;
+    height: auto;
+}
+
+
+.carousel-control-prev{
+    padding-top: 83%;
+    padding-left:0%;
+
+}
+
+.carousel-control-next{
+    padding-top: 83%;
+    padding-right:0%;
+    
+}
+
+
+/*
+hello
+
+
+*/
