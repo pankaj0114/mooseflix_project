@@ -1,3 +1,117 @@
-<p>
-    hello
-</p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css" />
+    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>    
+       
+    <title>Login Page </title>
+</head>
+<body style="background-color: #c4232b;">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <div class="container">
+        <div class="frame">
+            <div class="nav">
+                <ul class="links">
+                    <li class="signin-active"><a class="btn">Existing User</a></li>
+                    <li class="signup-inactive"><a class="btn" herf="signup.html">New User</a></li>
+                </ul>
+            </div>
+
+           <!-- --> <div ng-app ng-init="checked = false">
+                <form class="form-signin" action="" method="post" name="form">
+
+               <label for="fullname" style="color:white">  FULL NAME </label>
+                    <input class="form-styling" type="text" name="username" placeholder="" /> 
+
+                <label for="username" style="color:white"> USERNAME  </label> 
+                    <input class="form-styling" type="text" name="username" placeholder="" /> 
+
+                <label for="password" style="color:white ">PASSWORD </label>
+                     <input class="form-styling" name="password" type="password"
+                      placeholder="" /> 
+                     <input type="checkbox" id="checkbox" /> <label for="checkbox">
+                        <span class="ui"></span >
+                            <label style="color:white "> Remember Me </label>
+                    <div class="btn-animate"> <a class="btn-signin">Login to your account</a> </div>
+                </form>
+            </div>
+            <div class="forgot"><a href="#">Forgot your password?</a> 
+
+            </div>
+
+
+        
+
+        </div>
+                    <form class="form-signup" action="" method="post" name="form"> 
+                             <label for="fullname" style="color:white">Full name</label> 
+                                    <input class="form-styling" type="text" name="email" placeholder="" />
+                            
+                             <label for="email" style="color:white">Email</label> 
+                                     <input class="form-styling" type="text" name="email" placeholder="" />
+
+                             <label for="username" style="color:white">Username </label> 
+                                     <input class="form-styling" type="text" name="dlno" placeholder="" />
+
+                             <label for="password" style="color:white">Create password</label> 
+                                    <input class="form-styling" type="text" name="confirmpassword" placeholder="" /> 
+                             
+                             <a ng-click="checked = !checked" 
+                              class="btn-signup">REGISTER</a> </form>
+                           <div class="success"> <svg width="270" height="270" ></svg>
+                        </div>
+                       
+
+                    
+                </div>
+                </div>
+
+               
+                 <br>
+            <br>
+                    <script>
+                    $(function() {
+                            $(".btn").click(function() {
+                            $(".form-signin").toggleClass("form-signin-left");
+                            $(".form-signup").toggleClass("form-signup-left");
+                            $(".frame").toggleClass("frame-long");
+                            $(".signup-inactive").toggleClass("signup-active");
+                            $(".signin-active").toggleClass("signin-inactive");
+                            $(".forgot").toggleClass("forgot-left");
+                            $(this).removeClass("idle").addClass("active");
+                            });
+                            });
+
+
+                             $(function() {
+                            $(".btn-signup").click(function() {
+                            $(".nav").toggleClass("nav-up");
+                            $(".form-signup-left").toggleClass("form-signup-down");
+                            $(".frame").toggleClass("frame-short");
+                            });
+                            });
+
+                            $(function() {
+                            $(".btn-signin").click(function() {
+                            $(".btn-animate").toggleClass("btn-animate-grow");
+                            $(".frame").toggleClass("frame-short");
+                            $(".forgot").toggleClass("forgot-fade");
+                            });
+                            });
+                </script>
+
+
+
+
+
+
+    
+</body>
+</html>

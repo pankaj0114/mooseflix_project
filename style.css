@@ -18,6 +18,8 @@ body {
 .panel1 {
     display: inline-flex;
 }
+
+
 .section1 {
     background-color: #c4232b;
     position: relative;
@@ -114,7 +116,8 @@ ul#menu li a {
 }
 
 .logo3 {
-    width: 300px;
+    width: 70%;
+    height: 70%;
     height: fit-content;
     padding-left: 40%;
 }
@@ -374,6 +377,12 @@ ul li a {
     padding-right:0%;
     
 }
+
+.logo-row{
+    width:1000px;
+    height:400px;
+}
+
 
 
 /*
