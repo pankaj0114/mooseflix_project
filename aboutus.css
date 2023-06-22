@@ -1,0 +1,14 @@
+body{
+    background-color: white;
+}
+
+.section4{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: #c4232b;
+    box-sizing: border-box;
+    z-index:5;
+    display: block;
+}
