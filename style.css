@@ -28,7 +28,7 @@ body {
     gap: 0rem;
     height: 900px;
     font: "nevis-bold";
-    width: 500px;
+    width: 34%;
 }
 
 .logo {
@@ -144,14 +144,14 @@ ul#menu li a {
 .panel2 {
     background-color: white;
     height: 900px;
-    width: 1600px;
+    width: 100%;
     display: inline-block;
 }
 
 #panel-opt2 {
     background-color: black;
     height: 900px;
-    width: 1600px;
+    width: 100%;
     display: inline-block;
 }
 
@@ -167,7 +167,7 @@ ul#menu li a {
     padding-top: 40px;
     padding-left: 80px;
     gap: 4rem;
-    width: 1600px;
+    width: 100%;
 }
 
 .rowpanel2-2{
