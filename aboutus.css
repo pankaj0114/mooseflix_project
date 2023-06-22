@@ -6,16 +6,43 @@ body{
     position: fixed;
     left: 0px;
     top: 0px;
-    width: 100%;
     background-color: #c4232b;
-    box-sizing: border-box;
-    display: block;
     width: 100%;
+    height: 11%;
     display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
+   
+}
+
+.img7{
+    width:15%;
+    height:80%;
+}
+
+.section10{
+    
+    width:100%;
+    height: 900px;
+    padding-top:10%;
+}
+.section10.para1{
+    font:bold;
+    padding-top:40%;
+    font-family: "nevis-bold", sans-serif;
+    
+}
+
+.section11{
+    width:100%;
+    height:600px;
+    background-color: #c4232b;
+}
+
+.para2{
+    color: white bold;
+    text-align: center;
+    font:bold;
+    font-size:30px;
+    padding-top:10%;
 }
 
 
